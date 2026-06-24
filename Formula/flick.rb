@@ -2,12 +2,12 @@
 class Flick < Formula
   desc "Frictionless file transfer CLI. Share files with a short code."
   homepage "https://flick.d3l.tech"
-  version "0.0.1"
+  version "0.1.32"
 
   on_macos do
     on_arm do
-      url "https://apt.d3l.tech/releases/v0.0.1/flick-darwin-arm64"
-      sha256 "ab4d29019c26484f351efc524eb4158750da6d0ac677aedcfaadb9c1619af9de"
+      url "https://apt.d3l.tech/releases/v0.1.32/flick-darwin-arm64"
+      sha256 "a0c9b57ad2ae8b1e7cc3afde9a35b8c9ff63e4bbb4e04b536a7f771bc651f3f9"
 
       def install
         bin.install "flick-darwin-arm64" => "flick"
@@ -15,8 +15,8 @@ class Flick < Formula
     end
 
     on_intel do
-      url "https://apt.d3l.tech/releases/v0.0.1/flick-darwin-amd64"
-      sha256 "8398e30a3db5e027eff47a00e782a385185cb36af17c79d9ac5945780941d315"
+      url "https://apt.d3l.tech/releases/v0.1.32/flick-darwin-amd64"
+      sha256 "8616cd0a6c11f5b36f6e937cb087ec0174a2b1df9558d878d2ea03b7dc61493f"
 
       def install
         bin.install "flick-darwin-amd64" => "flick"
